@@ -1,7 +1,46 @@
 # React-Assignment
 
 **Project Structure**
-<img width="187" height="936" alt="image" src="https://github.com/user-attachments/assets/78bc75a7-e1cc-4f2a-99fd-311a2587c788" />
+
+react-assignment/
+│── public/
+│   └── images/              
+│
+│── src/
+│   ├── assets/              
+│   ├── components/
+│   │   ├── CineFeed/
+│   │   │   ├── PostCard.tsx
+│   │   │   └── Feed.tsx
+│   │   ├── FlickList/
+│   │   │   ├── MovieCard.tsx
+│   │   │   ├── Collection.tsx
+│   │   │   └── Gallery.tsx
+│   │   ├── MovieNightPicker/
+│   │   │   ├── FilterControls.tsx
+│   │   │   └── MovieList.tsx
+│   │   └── common/
+│   │       └── Navbar.tsx
+│   │
+│   ├── data/
+│   │   ├── cineFeedData.ts
+│   │   ├── flickListData.ts
+│   │   └── movieNightData.ts
+│   │
+│   ├── pages/
+│   │   ├── CineFeedPage.tsx
+│   │   ├── FlickListPage.tsx
+│   │   └── MovieNightPage.tsx
+│   │
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── tailwind.css
+│   └── react-app-env.d.ts
+│
+│── package.json
+│── tsconfig.json
+│── README.md
 
 **Sections**
 
