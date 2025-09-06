@@ -56,6 +56,8 @@ Movie fans often want to share quick thoughts, reviews, or reactions about films
 4. Showcases component reusability and feed-based UI design.
 
 **ScreenShot**
+<img width="1879" height="1055" alt="image" src="https://github.com/user-attachments/assets/0ec33ac0-cc5c-47ba-8021-84774ca94cf8" />
+
 
 **2️. FlickList**
 
