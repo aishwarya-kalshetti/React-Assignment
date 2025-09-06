@@ -1,46 +1,7 @@
 # React-Assignment
 
 **Project Structure**
-
-react-assignment/
-│── public/
-│   └── images/               
-│
-│── src/        
-│   ├── components/
-│   │   ├── CineFeed/
-│   │   │   ├── PostCard.tsx
-│   │   │   └── Feed.tsx
-│   │   ├── FlickList/
-│   │   │   ├── MovieCard.tsx
-│   │   │   ├── Collection.tsx
-│   │   │   └── Gallery.tsx
-│   │   ├── MovieNightPicker/
-│   │   │   ├── FilterControls.tsx
-│   │   │   └── MovieList.tsx
-│   │   └── common/
-│   │       └── Navbar.tsx
-│   │
-│   ├── data/
-│   │   ├── cineFeedData.ts
-│   │   ├── flickListData.ts
-│   │   └── movieNightData.ts
-│   │
-│   ├── pages/
-│   │   ├── CineFeedPage.tsx
-│   │   ├── FlickListPage.tsx
-│   │   └── MovieNightPage.tsx
-│   │
-│   ├── App.tsx
-│   ├── index.css
-│   ├── main.tsx
-│   ├── tailwind.css
-│   └── react-app-env.d.ts
-│
-│── package.json
-│── tsconfig.json
-│── README.md
-
+<img width="187" height="936" alt="image" src="https://github.com/user-attachments/assets/78bc75a7-e1cc-4f2a-99fd-311a2587c788" />
 
 **Sections**
 
@@ -72,6 +33,7 @@ Users get overwhelmed by the endless number of movies. This section provides cur
 4. State Management: Users can select a collection to filter the displayed movies.
 
 **Screenshot:**
+<img width="1882" height="1065" alt="image" src="https://github.com/user-attachments/assets/6c9a0307-9448-4b79-ba5a-8db3e51cbff2" />
 
 
 **3️. Movie Night Picker**
@@ -87,6 +49,7 @@ Choosing a movie for a night in can be tough. This tool filters movies based on 
 4. Perfect example of interactive filtering UI.
 
 **Screenshot:**
+<img width="1904" height="1040" alt="image" src="https://github.com/user-attachments/assets/01a3e2e2-1e32-4c18-9edb-ccce0b399d4b" />
 
 **Tech Stack**
 
@@ -94,7 +57,7 @@ React (with TypeScript)
 Tailwind CSS (for styling)
 React Router (for navigation between projects)
 
-**▶Getting Started**
+**Getting Started**
 
 **Clone the repo**
 
