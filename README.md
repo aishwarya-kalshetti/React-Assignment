@@ -62,7 +62,8 @@ Movie fans often want to share quick thoughts, reviews, or reactions about films
 4. Showcases component reusability and feed-based UI design.
 
 **ScreenShot**
-<img width="1879" height="1055" alt="image" src="https://github.com/user-attachments/assets/0ec33ac0-cc5c-47ba-8021-84774ca94cf8" />
+<img width="937" height="901" alt="image" src="https://github.com/user-attachments/assets/f15fdfd9-d398-4326-b965-6b5349ec7f7f" />
+
 
 
 **2️. FlickList**
@@ -78,7 +79,8 @@ Users get overwhelmed by the endless number of movies. This section provides cur
 4. State Management: Users can select a collection to filter the displayed movies.
 
 **Screenshot:**
-<img width="1882" height="1065" alt="image" src="https://github.com/user-attachments/assets/6c9a0307-9448-4b79-ba5a-8db3e51cbff2" />
+<img width="787" height="954" alt="image" src="https://github.com/user-attachments/assets/ad693adc-1fa7-47cd-a216-bf6a97f979ef" />
+
 
 
 **3️. Movie Night Picker**
@@ -94,7 +96,8 @@ Choosing a movie for a night in can be tough. This tool filters movies based on 
 4. Perfect example of interactive filtering UI.
 
 **Screenshot:**
-<img width="1904" height="1040" alt="image" src="https://github.com/user-attachments/assets/01a3e2e2-1e32-4c18-9edb-ccce0b399d4b" />
+<img width="1020" height="966" alt="image" src="https://github.com/user-attachments/assets/e98d8c8b-8078-48ff-bc9f-63c57e2465d9" />
+
 
 
 **Tech Stack**
