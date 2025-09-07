@@ -107,7 +107,7 @@ React Router (for navigation between projects)
 
 **Clone the repo**
 
-git clone https://github.com/your-username/react-assignment.git
+git clone https://github.com/aishwarya-kalshetti/react-assignment.git
 cd react-assignment
 
 **Install dependencies**
