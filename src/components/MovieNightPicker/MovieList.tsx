@@ -79,7 +79,7 @@ const MovieList: React.FC<{ movies: MovieNight[] }> = ({ movies }) => {
           </select>
         </div>
 
-        {/* Reset */}
+    
         <button
           onClick={() => {
             setGenre("");
@@ -93,7 +93,7 @@ const MovieList: React.FC<{ movies: MovieNight[] }> = ({ movies }) => {
         </button>
       </div>
 
-      {/* Movie Cards */}
+      
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {filteredMovies.map((movie) => (
           <div
