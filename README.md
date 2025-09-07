@@ -1,46 +1,136 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React-Assignment
 
-## Available Scripts
+**Project Structure**
 
-In the project directory, you can run:
+react-assignment/
+│── public/
+│   └── images/              
+│
+│── src/
+│   ├── assets/              
+│   ├── components/
+│   │   ├── CineFeed/
+│   │   │   ├── PostCard.tsx
+│   │   │   └── Feed.tsx
+│   │   ├── FlickList/
+│   │   │   ├── MovieCard.tsx
+│   │   │   ├── Collection.tsx
+│   │   │   └── Gallery.tsx
+│   │   ├── MovieNightPicker/
+│   │   │   ├── FilterControls.tsx
+│   │   │   └── MovieList.tsx
+│   │   └── common/
+│   │       └── Navbar.tsx
+│   │
+│   ├── data/
+│   │   ├── cineFeedData.ts
+│   │   ├── flickListData.ts
+│   │   └── movieNightData.ts
+│   │
+│   ├── pages/
+│   │   ├── CineFeedPage.tsx
+│   │   ├── FlickListPage.tsx
+│   │   └── MovieNightPage.tsx
+│   │
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── tailwind.css
+│   └── react-app-env.d.ts
+│
+│── package.json
+│── tsconfig.json
+│── README.md
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The project consists of three main sections: **CineFeed**, **FlickList**, and **Movie Night Picker**.  
+You can easily switch between these sections using the **Navbar**, where each name links directly to its respective page.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+**Sections**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**1️. CineFeed**
 
-### `npm run build`
+**Problem Statement:**
+Movie fans often want to share quick thoughts, reviews, or reactions about films in a social, feed-like experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Features:**
+1. A feed of posts with user thoughts and reactions.
+2. Each post card displays username, avatar, movie poster, and text.
+3. Interactions (likes/comments) can be added.
+4. Showcases component reusability and feed-based UI design.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**ScreenShot**
+<img width="1879" height="1055" alt="image" src="https://github.com/user-attachments/assets/0ec33ac0-cc5c-47ba-8021-84774ca94cf8" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+**2️. FlickList**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Problem Statement:**
+Users get overwhelmed by the endless number of movies. This section provides curated collections to help them choose based on genres or themes.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Features:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Collection Gallery: Curated lists like Top Sci-Fi, 80s Classics, Fantasy Epics.
+2. MovieCard Component: Displays movie poster, title, and rating.
+3. Collection Component: Groups multiple MovieCards together.
+4. State Management: Users can select a collection to filter the displayed movies.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Screenshot:**
+<img width="1882" height="1065" alt="image" src="https://github.com/user-attachments/assets/6c9a0307-9448-4b79-ba5a-8db3e51cbff2" />
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**3️. Movie Night Picker**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Problem Statement:**
+Choosing a movie for a night in can be tough. This tool filters movies based on genre or mood to simplify the decision.
+
+**Features:**
+
+1. Filter Controls: Dropdown/buttons for genres like Comedy, Action, Romance.
+2. Movie List: Updates dynamically based on selected filters.
+3. State Management: Uses useState to manage filters and re-render movies.
+4. Perfect example of interactive filtering UI.
+
+**Screenshot:**
+<img width="1904" height="1040" alt="image" src="https://github.com/user-attachments/assets/01a3e2e2-1e32-4c18-9edb-ccce0b399d4b" />
+
+
+**Tech Stack**
+
+React (with TypeScript)
+Tailwind CSS (for styling)
+React Router (for navigation between projects)
+
+
+**Getting Started**
+
+**Clone the repo**
+
+git clone https://github.com/aishwarya-kalshetti/react-assignment.git
+cd react-assignment
+
+**Install dependencies**
+
+npm install
+
+**Run the project**
+
+npm start
+
+**Open in browser**
+
+http://localhost:3000
+
+
+**Summary**
+
+CineVerse combines three distinct UI projects into one:
+
+**CineFeed →** A social-style feed for movie lovers.
+**FlickList →** A curated collection browser.
+**Movie Night Picker →** A filtering tool to help decide what to watch.
+
+This project is a great example of React component design, props usage, and state management.
+
