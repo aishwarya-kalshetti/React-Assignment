@@ -42,6 +42,9 @@ react-assignment/
 │── tsconfig.json
 │── README.md
 
+The project consists of three main sections: **CineFeed**, **FlickList**, and **Movie Night Picker**.  
+You can easily switch between these sections using the **Navbar**, where each name links directly to its respective page.
+
 **Sections**
 
 **1️. CineFeed**
