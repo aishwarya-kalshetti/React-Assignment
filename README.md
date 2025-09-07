@@ -118,6 +118,7 @@ http://localhost:3000
 **Summary**
 
 CineVerse combines three distinct UI projects into one:
+
 **CineFeed →** A social-style feed for movie lovers.
 **FlickList →** A curated collection browser.
 **Movie Night Picker →** A filtering tool to help decide what to watch.
