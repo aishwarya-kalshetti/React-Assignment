@@ -42,8 +42,10 @@ react-assignment/
 │── tsconfig.json
 │── README.md
 
+
 The project consists of three main sections: **CineFeed**, **FlickList**, and **Movie Night Picker**.  
 You can easily switch between these sections using the **Navbar**, where each name links directly to its respective page.
+
 
 **Sections**
 
@@ -93,11 +95,13 @@ Choosing a movie for a night in can be tough. This tool filters movies based on 
 **Screenshot:**
 <img width="1904" height="1040" alt="image" src="https://github.com/user-attachments/assets/01a3e2e2-1e32-4c18-9edb-ccce0b399d4b" />
 
+
 **Tech Stack**
 
 React (with TypeScript)
 Tailwind CSS (for styling)
 React Router (for navigation between projects)
+
 
 **Getting Started**
 
@@ -117,6 +121,7 @@ npm start
 **Open in browser**
 
 http://localhost:3000
+
 
 **Summary**
 
