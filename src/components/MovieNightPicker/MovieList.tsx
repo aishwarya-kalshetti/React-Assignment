@@ -19,7 +19,7 @@ const MovieList: React.FC<{ movies: MovieNight[] }> = ({ movies }) => {
     <div className="p-6 max-w-7xl mx-auto">
       <h1 className="text-3xl font-bold mb-6 text-center">🍿 Movie Night Picker</h1>
 
-      {/* Full-width Filter Bar */}
+     
       <div className="flex flex-wrap justify-between items-center bg-white shadow-md rounded-xl p-4 mb-8 gap-4">
         {/* Genre */}
         <div className="flex flex-col flex-1 min-w-[120px]">

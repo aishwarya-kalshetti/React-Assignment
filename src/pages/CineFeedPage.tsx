@@ -1,4 +1,4 @@
-// src/pages/CineFeedPage.tsx
+
 import React from "react";
 import Feed from "../components/CineFeed/Feed";
 

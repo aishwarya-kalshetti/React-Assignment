@@ -6,7 +6,7 @@ const Gallery: React.FC = () => {
   const [selectedCollection, setSelectedCollection] = useState<Collection | null>(null);
   const [minRating, setMinRating] = useState("");
 
-  // Filter movies inside collections based on rating
+  
   const filteredCollections: Collection[] = bollywoodFlickListData.map((collection: Collection) => ({
     ...collection,
     movies: collection.movies.filter((movie: Movie) => minRating === "" || movie.rating >= Number(minRating))
@@ -20,9 +20,9 @@ const Gallery: React.FC = () => {
     <div className="p-6 max-w-7xl mx-auto">
       <h1 className="text-3xl font-bold mb-6 text-center">🎬 Bollywood FlickList</h1>
 
-      {/* Full-width Filter Bar */}
+      
       <div className="flex flex-wrap justify-between items-center bg-white shadow-md rounded-xl p-4 mb-8 gap-4">
-        {/* Collection Dropdown */}
+      
         <div className="flex flex-col flex-1 min-w-[150px]">
           <label className="text-gray-600 font-medium mb-1">Select Collection</label>
           <select
@@ -40,7 +40,7 @@ const Gallery: React.FC = () => {
           </select>
         </div>
 
-        {/* Rating Filter */}
+       
         <div className="flex flex-col flex-1 min-w-[120px]">
           <label className="text-gray-600 font-medium mb-1">Minimum Rating</label>
           <select
@@ -55,7 +55,7 @@ const Gallery: React.FC = () => {
           </select>
         </div>
 
-        {/* Reset Button */}
+    
         <button
           onClick={() => {
             setSelectedCollection(null);
@@ -67,7 +67,7 @@ const Gallery: React.FC = () => {
         </button>
       </div>
 
-      {/* Collection Display */}
+      
       {collectionsToShow.map((collection: Collection) => (
         <CollectionComp key={collection.id} collection={collection} />
       ))}

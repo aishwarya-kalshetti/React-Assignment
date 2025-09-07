@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
           🎬 CineVerse
         </div>
 
-        {/* Desktop Links */}
+        
         <div className="hidden md:flex space-x-8 text-sm">
           {links.map((link) => (
             <div key={link.path} className="group relative">
@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
           ))}
         </div>
 
-        {/* Mobile Menu Button */}
+        
         <div className="md:hidden">
           <button onClick={() => setOpen(!open)}>
             {open ? <X size={28} /> : <Menu size={28} />}
@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+     
       {open && (
         <div className="md:hidden bg-gray-800 px-6 py-4 space-y-3">
           {links.map((link) => (
