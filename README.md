@@ -1,7 +1,7 @@
 
 # React-Assignment
 
-[Watch the demo](/demo.mp4)
+[Watch the demo](public/demo.mp4)
 
 **Project Structure**
 
