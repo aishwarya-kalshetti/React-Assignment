@@ -1,6 +1,7 @@
 
 # React-Assignment
 
+[Watch the demo](demo.mp4)
 
 **Project Structure**
 
